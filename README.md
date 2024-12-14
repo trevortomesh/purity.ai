@@ -22,8 +22,8 @@ The AI Purity Scale is a framework for transparently communicating how much arti
 As AI tools become prevalent in coding, writing, and creative processes, it’s crucial to establish an honest and ethical framework for their use. The AI Purity Scale is designed to:
 	
  	•	Promote transparency about AI involvement.
-	•	Prevent stigmatization of AI use while encouraging ethical practices.
-	•	Help educators, researchers, and developers evaluate contributions.
+ 	•	Prevent stigmatization of AI use while encouraging ethical practices.
+ 	•	Help educators, researchers, and developers evaluate contributions.
 
 ---
 
@@ -98,7 +98,7 @@ You can use multiple badges to show AI involvement in specific areas. For exampl
 	3.	Ethics: Reduces the stigma around AI tools while promoting responsible use.
 	4.	Recognition: Differentiates human contributions from AI assistance, giving proper credit.
 
---- 
+---
 🧮 How to Assess Your AI Purity Score
 
 To help determine the AI Purity Score for your work, you can use the following instructions and prompt with ChatGPT (or any similar AI tool). This will allow you to evaluate the balance between human effort and AI assistance in your project.
@@ -111,10 +111,12 @@ Instructions
 		•	Outline Assistance (OUT): Did AI help structure your work, brainstorm, or organize ideas?
 		•	Logic Generation (LOG): Did AI contribute to generating or troubleshooting code, algorithms, or logical structures?
 		•	Documentation (DOC): Did AI help create or refine documentation, explanations, or descriptions?
-  
+	  
 	2.	Copy and paste the following prompt into ChatGPT (or another AI tool), filling in details about your project and how AI was used.
 
 Here’s how you can update the README.md to include instructions for generating AI Purity Score badges automatically, using ChatGPT and the badges hosted in your GitHub repository.
+
+---
 
 🏷 Automatically Generating AI Purity Score Badges
 
@@ -124,6 +126,7 @@ Step 1: Use This Prompt to Assess Your AI Purity Score
 
 Paste this prompt into ChatGPT (or another AI tool), and provide details about your project:
 
+```
 I need help assessing the AI Purity Score for a project I created. Here's how I used AI:
 
 1. **Spelling and Grammar**: Did AI assist with spelling and grammar (e.g., Grammarly, ChatGPT)?
@@ -133,6 +136,7 @@ I need help assessing the AI Purity Score for a project I created. Here's how I 
 5. **Documentation**: Did AI help write or improve documentation?
 
 Based on my responses, assign an **AI Purity Score** using these categories:  
+
 - **Purely Human**: Fully human-created (100% human, 0% AI).  
 - **Mostly Human**: Minor AI assistance (75-90% human).  
 - **Mixed Collaboration**: Equal AI and human input (50-50 split).  
@@ -140,20 +144,26 @@ Based on my responses, assign an **AI Purity Score** using these categories:
 - **Purely AI**: Fully AI-generated (100% AI).
 
 Output the following:  
+
 1. A summary explaining the score.  
 2. The Markdown link for the corresponding badge from this repository:  
    https://github.com/trevortomesh/purity.ai  
+```
 
 Step 2: Retrieve the Correct Badge
 
 The AI will determine your AI Purity Score and provide you with a badge link. Here are the available badges hosted in the repository:
 
-AI Purity Score	Badge Example
-Purely Human	![Purely Human](https://img.shields.io/badge/AI_Purity-100%25_Human-blue)
-Mostly Human	![Mostly Human](https://img.shields.io/badge/AI_Purity-Mostly_Human-lightblue)
-Mixed Collaboration	![Mixed Collab](https://img.shields.io/badge/AI_Purity-Mixed_Collab-yellow)
-Mostly AI	![Mostly AI](https://img.shields.io/badge/AI_Purity-Mostly_AI-orange)
-Purely AI	![Purely AI](https://img.shields.io/badge/AI_Purity-100%25_AI-red)
+| AI Purity Score     | Badge Example                                                |
+| ------------------- | ------------------------------------------------------------ |
+| Purely Human        | ![Purely Human](https://img.shields.io/badge/AI_Purity-100%25_Human-blue) |
+| Mostly Human        | ![Mostly Human](https://img.shields.io/badge/AI_Purity-Mostly_Human-lightblue) |
+| Mixed Collaboration | ![Mixed Collab](https://img.shields.io/badge/AI_Purity-Mixed_Collab-yellow) |
+| Mostly AI           | ![Mostly AI](https://img.shields.io/badge/AI_Purity-Mostly_AI-orange) |
+| Purely AI           | ![Purely AI](https://img.shields.io/badge/AI_Purity-100%25_AI-red) |
+
+
+​	
 
 Step 3: Add the Badge to Your Project
 
@@ -198,7 +208,7 @@ This framework can be expanded with:
 	•	Automated tools for measuring AI involvement.
 	•	AI contribution reports linking specific badges to project summaries.
 	•	Formal standards for academic and industry use.
- 
+
 ---
 
 🤝 Contributing
