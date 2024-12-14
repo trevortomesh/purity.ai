@@ -17,7 +17,7 @@ The AI Purity Scale is a framework for transparently communicating how much arti
 
 ---
 
-🚀 Purpose
+## 🚀 Purpose
 
 As AI tools become prevalent in coding, writing, and creative processes, it’s crucial to establish an honest and ethical framework for their use. The AI Purity Scale is designed to:
 	
@@ -27,7 +27,7 @@ As AI tools become prevalent in coding, writing, and creative processes, it’s 
 
 ---
 
-🎨 The AI Purity Scale
+## 🎨 The AI Purity Scale
 
 The AI Purity Scale measures contributions across a sliding range, using color-coded badges:
 
@@ -41,7 +41,7 @@ Purely AI | Fully AI-generated | Red | ![Badge](https://img.shields.io/badge/AI_
 	
 ---
 
-🛠 Category-Specific Badges
+## 🛠 Category-Specific Badges
 
 In addition to the overall scale, badges can identify specific types of AI assistance:
 
@@ -57,9 +57,9 @@ You can combine these badges to show multiple forms of AI use.
 
 ---
 
-🧩 How to Use AI Purity Badges
+## 🧩 How to Use AI Purity Badges
 
-1. Add a Badge to Your Project
+1. ## Add a Badge to Your Project
 
 To include a badge in your README file or project page, use the following Markdown syntax:
 
@@ -79,7 +79,7 @@ Example:
 ```
 Result: ![Badge](https://img.shields.io/badge/AI_Purity-Mostly_Human-lightblue)
 
-2. Combine Badges for Specific AI Contributions
+2. ### Combine Badges for Specific AI Contributions
 
 You can use multiple badges to show AI involvement in specific areas. For example:
 
@@ -91,7 +91,7 @@ You can use multiple badges to show AI involvement in specific areas. For exampl
 
 ---
 
-📜 Why Transparency Matters
+## 📜 Why Transparency Matters
 
 	1.	Honesty: Clearly showing AI involvement builds trust with your audience.
 	2.	Education: Teachers and students can better evaluate learning outcomes.
@@ -99,7 +99,7 @@ You can use multiple badges to show AI involvement in specific areas. For exampl
 	4.	Recognition: Differentiates human contributions from AI assistance, giving proper credit.
 
 ---
-🧮 How to Assess Your AI Purity Score
+## 🧮 How to Assess Your AI Purity Score
 
 To help determine the AI Purity Score for your work, you can use the following instructions and prompt with ChatGPT (or any similar AI tool). This will allow you to evaluate the balance between human effort and AI assistance in your project.
 
@@ -118,11 +118,11 @@ Here’s how you can update the README.md to include instructions for generating
 
 ---
 
-🏷 Automatically Generating AI Purity Score Badges
+## 🏷 Automatically Generating AI Purity Score Badges
 
 To make it easier for users to assess and display their AI Purity Score, you can use ChatGPT to analyze your work and provide a badge that reflects the level of AI involvement. Follow these instructions to get your score and generate a badge for your project.
 
-Step 1: Use This Prompt to Assess Your AI Purity Score
+### Step 1: Use This Prompt to Assess Your AI Purity Score
 
 Paste this prompt into ChatGPT (or another AI tool), and provide details about your project:
 
@@ -150,7 +150,7 @@ Output the following:
    https://github.com/trevortomesh/purity.ai  
 ```
 
-Step 2: Retrieve the Correct Badge
+### Step 2: Retrieve the Correct Badge
 
 The AI will determine your AI Purity Score and provide you with a badge link. Here are the available badges hosted in the repository:
 
@@ -165,9 +165,13 @@ The AI will determine your AI Purity Score and provide you with a badge link. He
 
 ​	
 
-Step 3: Add the Badge to Your Project
+### Step 3: Add the Badge to Your Project
 
-Once you receive the badge Markdown from ChatGPT, paste it into your project’s README.md file or documentation. For example:
+Once you receive the badge Markdown from ChatGPT, paste it into your project’s README.md file or documentation. 
+
+---
+
+For example:
 
 # My Project  
 ![Mixed Collab](https://img.shields.io/badge/AI_Purity-Mixed_Collab-yellow)
@@ -193,7 +197,9 @@ AI Purity Score: Mostly Human (75-90% human)
 Reasoning:
 	•	AI was used for Outline Assistance and Spelling/Grammar corrections, but the content itself was human-written. The core creative work remains primarily human-driven, with AI playing a supporting role.
 
-Why This Matters
+---
+
+### Why This Matters
 
 The AI Purity Score helps communicate how much of your work was influenced by AI tools. It promotes transparency, encourages ethical use of AI, and gives credit where it’s due—both to human effort and AI assistance.
 
@@ -201,7 +207,7 @@ By including an AI Purity Score in your work, you ensure clarity and honesty in 
 
 ---
 
-🌐 Future Directions
+## 🌐 Future Directions
 
 This framework can be expanded with:
 
@@ -211,7 +217,7 @@ This framework can be expanded with:
 
 ---
 
-🤝 Contributing
+## 🤝 Contributing
 
 Want to help improve the AI Purity Scale? Feel free to:
 
@@ -221,6 +227,6 @@ Want to help improve the AI Purity Scale? Feel free to:
 
 ---
 
-⚖️ License
+## ⚖️ License
 
 This project is open source. Feel free to adapt the framework for your needs.
