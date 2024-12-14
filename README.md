@@ -127,27 +127,78 @@ To make it easier for users to assess and display their AI Purity Score, you can
 Paste this prompt into ChatGPT (or another AI tool), and provide details about your project:
 
 ```
-I need help assessing the AI Purity Score for a project I created. Here's how I used AI:
+I need help calculating the AI Purity Score for my project and generating Markdown badges I can copy and paste directly into my README file.
 
-1. **Spelling and Grammar**: Did AI assist with spelling and grammar (e.g., Grammarly, ChatGPT)?
-2. **Code Comments**: Did AI help generate comments or annotate code?
-3. **Outline Assistance**: Did AI help structure the work, brainstorm, or organize ideas?
-4. **Logic Generation**: Did AI assist in generating code, algorithms, or logic?
-5. **Documentation**: Did AI help write or improve documentation?
+---
 
-Based on my responses, assign an **AI Purity Score** using these categories:  
+### Categories of AI Use:
 
-- **Purely Human**: Fully human-created (100% human, 0% AI).  
-- **Mostly Human**: Minor AI assistance (75-90% human).  
-- **Mixed Collaboration**: Equal AI and human input (50-50 split).  
-- **Mostly AI**: Significant AI use (75-90% AI).  
-- **Purely AI**: Fully AI-generated (100% AI).
+1. **Spelling and Grammar (SPGR):** Describe to what extent AI tools were used to correct grammar, spelling, or rewrite text (e.g., minimal corrections, heavy rewriting).  
+2. **Code Comments (CMT):** Explain if AI helped generate or improve code comments. Was it light annotation or extensive commenting?  
+3. **Outline Assistance (OUT):** Did AI help brainstorm, organize ideas, or structure your work? Describe the role AI played.  
+4. **Logic Generation (LOG):** Did AI write code, troubleshoot algorithms, or help with logical solutions? To what extent?  
+5. **Documentation (DOC):** Did AI assist in creating or improving documentation, explanations, or text descriptions?  
 
-Output the following:  
+---
 
-1. A summary explaining the score.  
-2. The Markdown link for the corresponding badge from this repository:  
-   https://github.com/trevortomesh/purity.ai  
+### Tasks for You:
+
+1. **Assess AI Use**: Based on my responses, calculate the AI Purity Score and assign it one of these categories:
+   - **Purely Human** (0–10% AI use, Blue)  
+   - **Mostly Human** (11–35% AI use, Light Blue)  
+   - **Mixed Collaboration** (36–65% AI use, Yellow)  
+   - **Mostly AI** (66–90% AI use, Orange)  
+   - **Purely AI** (91–100% AI use, Red)  
+
+2. **Output the Overall AI Purity Badge**:  
+   - Use the corresponding badge from the repository in the format below:
+     - Purely Human: `![Purely Human](https://img.shields.io/badge/AI_Purity-100%25_Human-blue)`  
+     - Mostly Human: `![Mostly Human](https://img.shields.io/badge/AI_Purity-Mostly_Human-lightblue)`  
+     - Mixed Collaboration: `![Mixed Collab](https://img.shields.io/badge/AI_Purity-Mixed_Collab-yellow)`  
+     - Mostly AI: `![Mostly AI](https://img.shields.io/badge/AI_Purity-Mostly_AI-orange)`  
+     - Purely AI: `![Purely AI](https://img.shields.io/badge/AI_Purity-100%25_AI-red)`  
+
+3. **Output Category-Specific Badges**:  
+   For each category where AI was used, include the corresponding Markdown badge:  
+   - **Spelling and Grammar (SPGR)**: `![SPGR](https://img.shields.io/badge/AI_Assist-SPGR-yellow)`  
+   - **Code Comments (CMT)**: `![CMT](https://img.shields.io/badge/AI_Assist-CMT-lightgreen)`  
+   - **Outline Assistance (OUT)**: `![OUT](https://img.shields.io/badge/AI_Assist-OUT-blue)`  
+   - **Logic Generation (LOG)**: `![LOG](https://img.shields.io/badge/AI_Assist-LOG-orange)`  
+   - **Documentation (DOC)**: `![DOC](https://img.shields.io/badge/AI_Assist-DOC-red)`  
+
+4. **Combine Everything**:  
+   Output all badges in a **Markdown-ready format** for me to copy and paste directly into my README.md file. Include the following line at the end:  
+
+   **Learn more about the Purity AI Project here:**  
+   [https://github.com/trevortomesh/purity.ai](https://github.com/trevortomesh/purity.ai)
+
+---
+
+### Example Input:  
+1. **Spelling and Grammar (SPGR):** I used AI for light corrections only.  
+2. **Code Comments (CMT):** AI generated comments for about 30% of my code.  
+3. **Outline Assistance (OUT):** AI provided an initial outline, but I wrote the content.  
+4. **Logic Generation (LOG):** AI helped me troubleshoot a bug.  
+5. **Documentation (DOC):** I wrote the documentation entirely myself.
+
+---
+
+### Example Output (Copy-Paste Ready):
+
+```markdown
+# AI Purity Assessment
+
+**Overall AI Purity Score**:  
+![Mostly Human](https://img.shields.io/badge/AI_Purity-Mostly_Human-lightblue)
+
+**Category-Specific AI Assistance**:  
+![SPGR](https://img.shields.io/badge/AI_Assist-SPGR-yellow)  
+![CMT](https://img.shields.io/badge/AI_Assist-CMT-lightgreen)  
+![OUT](https://img.shields.io/badge/AI_Assist-OUT-blue)  
+![LOG](https://img.shields.io/badge/AI_Assist-LOG-orange)
+
+**Learn more about the Purity AI Project here:**  
+[https://github.com/trevortomesh/purity.ai](https://github.com/trevortomesh/purity.ai)
 ```
 
 ### Step 2: Retrieve the Correct Badge
